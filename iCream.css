@@ -1,0 +1,304 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    color: white;;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+body{
+    font-family: 'Poppins';
+    background-color: #ffffff;
+}
+.heroSection{
+    max-width: 1200px;
+}
+.header{
+    position: relative;
+}
+.support_container{
+    background-color: #f195b2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px 0 50px 0;
+}
+.support_container nav {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.support_container nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.icons {
+    gap: 30px;
+    text-align: center;
+    margin: auto;
+}
+.help {
+    gap: 40px;
+}
+.firstLine:after{
+    content: " ";
+    display: block;
+    width: 1.5px;
+    height: 13px;
+    color: white;
+    background-color: white;
+    position: absolute;
+    top: 7px;
+    left: 50px;
+}
+.secondLine:after{
+    content: " ";
+    display: block;
+    width: 1.5px;
+    height: 13px;
+    color: white;
+    background-color: white;
+    position: absolute;
+    top: 7px;
+    left: 120px;
+}
+.icons li a {
+    font-size: 14px;
+}
+.navigation_container{
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    position: absolute;
+    top: 75px;
+    left: 110px;
+    z-index: 2;
+}
+.navigation_container nav ul li a{
+    color: black;
+}
+.navigation_container nav h2{
+    color: #f195b2;
+    font-size: 3rem;
+}
+.navigation_container nav h2::first-letter{
+    color: #62c3e7;
+}
+.navigation_container nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin: auto;
+}
+
+.navigation_container nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    font-weight: 700;
+}
+.title{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/carousel-1.jpg');
+    background-size: cover;
+    background-position: center;
+    border-bottom: 10px solid #aaacb2;
+    height: 800px;
+    position: relative;
+    z-index: 1;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    gap: 10px;
+    padding: 240px 0;
+}
+h1 {
+    font-size: 4.5rem;
+    width: 700px;
+}
+
+.title .head h2 {
+    text-transform: uppercase;
+}
+
+.title .head a {
+    font-weight: 800;
+    background-color: #f195b2;
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+.main{
+    background-color: #c8e7f8;
+    padding: 70px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #555555;
+    position: relative;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.main h2:before{
+    content: " ";
+    display: block;
+    width: 80px;
+    height: 4px;
+    color: #f195b2;
+    background-color: #f195b2;
+    position: absolute;
+    top: 60px;
+    left: 550px;
+}
+.information {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.aboutUs {
+    flex: 0 0 30%;
+    margin-top: 50px;
+}
+
+.image {
+    flex: 1 0;
+}
+
+.features {
+    flex: 0 0 30%;
+    margin-top: 50px;
+}
+
+.main h2 {
+    font-size: 2.5rem;
+}
+.information > section{
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.information .aboutUs span{
+    color: #6c757d;
+    font-weight: 800;
+}
+.information > section a{
+    background-color: #f195b2;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+.information .aboutUs a{
+    background-color: #62c3e7
+}
+.features ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-weight: 900;
+    color: #6c757d;
+}
+.features ul li .fa-solid{
+    padding-right: 10px;
+    color:#62c3e7;
+    font-weight: 1000;
+}
+.footer{
+    padding: 50px 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.footer h2{
+    color: #f195b2;
+    font-size: 3rem;
+}
+.footer h2::first-letter{
+    color: #62c3e7;
+}
+.footer nav ul li a{
+    color: #62c3e7;
+    padding: 15px;
+    font-size: 15px;
+    text-align: center;
+}
+.footer nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.footer nav ul li {
+    border: 2px solid #b0e1f3;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+}
+.contactSection {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.touch {
+    text-align: right;
+    padding-right: 20px;
+    border-right: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.open {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.contactSection div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.contactSection div p{
+    color: #5a5a5b;
+}
+.footer p .domain{
+    color: #f195b2;
+    font-size: 0.8rem;
+}
+.footer p {
+    font-size: 0.8rem;
+    color: #5a5a5b;
+}
+.contactSection div h4{
+    color: #5a5a5b;
+}
